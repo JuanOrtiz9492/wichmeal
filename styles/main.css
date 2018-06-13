@@ -1,0 +1,50 @@
+li{
+    display: inline;
+}
+#mainContainer{
+    display: grid;
+    grid-template-areas: 
+    "1 1 2 3"
+    "4 4 4 4"
+    "5 6 7 8 "
+    "9 9 9 9"
+    "10 10 10 10"
+    "11 11 11 11"
+    "12 12 12 12";
+}
+.mainMenu>li:nth-child(1){
+    grid-area: 1;
+}
+.mainMenu>li:nth-child(2){
+    grid-area: 2;
+}
+.mainMenu>li:nth-child(3){
+    grid-area: 3;
+}
+.Hero{
+    grid-area: 4;
+}
+.menu>li:nth-child(1){
+    grid-area: 5;
+}
+.menu>li:nth-child(2){
+    grid-area: 6;
+}
+.menu>li:nth-child(3){
+    grid-area: 7;
+}
+.menu>li:nth-child(4){
+    grid-area: 8;
+}
+article{
+    grid-area: 9;
+}
+img{
+    grid-area: 10;
+}
+#customers{
+    grid-area: 11;
+}
+footer{
+    grid-area: 12;
+}
